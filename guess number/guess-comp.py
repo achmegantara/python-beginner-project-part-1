@@ -14,7 +14,7 @@ def computer_guess(x):
             f'Is {guess} too high(H), too low (L), or correct (C)?? ').lower()
         if feedback == 'h':
             high = guess - 1
-        elif feedback == '1':
+        elif feedback == 'l':
             low = guess + 1
 
     print(f'Yay! computer guessed your number, {guess}, correctly!')
